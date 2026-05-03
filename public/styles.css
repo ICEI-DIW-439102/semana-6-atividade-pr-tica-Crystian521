@@ -1,21 +1,10 @@
 body {
-  font-family: Arial;
-  margin: 0;
-  padding: 0;
+  font-family: Arial, sans-serif;
 }
 
 header {
   background: #4CAF50;
   color: white;
-  display: flex;
-  justify-content: space-between;
-  padding: 10px 20px;
-}
-
-header .menu ul {
-  list-style: none;
-  display: flex;
-  gap: 15px;
 }
 
 header .menu a {
@@ -24,37 +13,7 @@ header .menu a {
 }
 
 .destaque {
-  text-align: center;
-  padding: 40px;
   background: #f0f0f0;
-}
-
-.artigos {
-  display: flex;
-  justify-content: space-around;
-  padding: 20px;
-}
-
-.artigos article {
-  width: 30%;
-  background: #fff;
-  padding: 10px;
-  box-shadow: 0 0 5px rgba(0,0,0,0.1);
-  text-align: center;
-}
-
-.artigos article img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  border-radius: 5px;
-}
-
-footer {
-  background: #333;
-  color: white;
-  text-align: center;
-  padding: 15px;
 }
 
 .logo img {
@@ -62,50 +21,7 @@ footer {
   width: auto;
 }
 
-/* ===== MEDIA QUERY - CELULAR (até 768px) ===== */
-@media (max-width: 768px) {
-
-  header {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    padding: 15px;
-  }
-
-  .logo img {
-    height: 70px;
-  }
-
-  header .menu ul {
-    flex-direction: row;
-    justify-content: center;
-    gap: 20px;
-    padding: 0;
-    margin: 0;
-  }
-
-  .destaque {
-    padding: 25px 15px;
-  }
-
-  .destaque h1 {
-    font-size: 1.3rem;
-  }
-
-  .artigos {
-    flex-direction: column;
-    align-items: center;
-    padding: 15px;
-    gap: 20px;
-  }
-
-  .artigos article {
-    width: 90%;
-    height: auto;
-  }
-
-  footer {
-    font-size: 0.9rem;
-    padding: 12px;
-  }
+footer {
+  background: #333;
+  color: white;
 }

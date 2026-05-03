@@ -9,7 +9,7 @@ No trabalho dessa semana vamos alterar o projeto para que a responsividade da ho
 
 ## Informações Gerais
 
-- Nome:
+- Nome: Crystian Macondes Oliveira Nascimento
 - Matricula:
 - Proposta de projeto escolhida:
 - Breve descrição sobre seu projeto:
